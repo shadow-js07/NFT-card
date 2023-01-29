@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.card{
+    /* padding: 10%;   */
+    justify-content: center;  
+}
+
+.contenedor{
+    background: hsl(216, 50%, 16%);
+    align-items: center;
+    width: 310px;
+    height: 530px;
+    border: 1px solid;
+    border-radius: 15px;
+    margin:5% auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.cabeza{
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px 0 20px 0;
+}
+.cabeza a{
+    color: aliceblue;
+}
+
+.cabeza a:hover{
+color: hsl(178, 100%, 50%);
+}
+
+.texto{
+    padding-bottom: 20px;
+    font-weight: 200;
+    font-size: 17px;
+    color: hsl(215, 51%, 70%);
+}
+
+.parrafos{
+    display: flex;
+    border-bottom: 1px solid  hsl(215, 32%, 27%);
+    padding-bottom: 10px;
+}
+.img1, .img2{
+    padding-right: 7px;
+}
+.parrafo1{
+    color: hsl(178, 100%, 50%);
+    font-size: 14px;
+    flex: 1 1 auto;
+    align-items: center;
+    display: flex;
+}
+
+.parrafo{
+    flex: 1 1 auto;
+    padding-left: 35%;
+    margin: 5px auto;
+    display: flex;
+}
+.parrafo p{
+    padding-top: 2px;
+}
+.parrafo, .credito{
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+}
+
+.token{
+    border-radius: 10px;
+    width: 270px;
+    height: 270px; 
+    border: 1px solid transparent;
+    display: flex;
+}
+
+
+.avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid aliceblue;
+}
+
+
+.creditos{
+    display: flex;
+    padding-top: 15px;
+}
+
+.credito{
+    flex: 1 1 auto;
+    padding-top: 7px;
+    padding-left: 17px;
+}
+
+.credito a{
+    color: aliceblue;
+}
+.credito a:hover{
+    color: hsl(178, 100%, 50%);
+}
