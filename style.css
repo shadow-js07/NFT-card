@@ -13,10 +13,9 @@ body{
     font-family: 'Outfit', sans-serif;
 }
 
-.card{
-    /* padding: 10%;   */
-    justify-content: center;  
-}
+/* .card{ 
+    padding:10% auto;
+} */
 
 .contenedor{
     background: hsl(216, 50%, 16%);
